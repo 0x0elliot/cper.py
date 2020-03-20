@@ -2,7 +2,6 @@ import pyperclip
 import os
 import platform
 import secrets
-from termcolor import colored
 plat= platform.platform()
 if(plat=='Windows'):
     clear_command= 'cls'
